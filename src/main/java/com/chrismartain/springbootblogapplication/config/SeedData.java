@@ -1,6 +1,11 @@
 package com.chrismartain.springbootblogapplication.config;
 
+import com.chrismartain.springbootblogapplication.models.Account;
+import com.chrismartain.springbootblogapplication.models.Authority;
+import com.chrismartain.springbootblogapplication.models.Post;
+import com.chrismartain.springbootblogapplication.repositories.AuthorityRepository;
 import com.chrismartain.springbootblogapplication.services.AccountService;
+import com.chrismartain.springbootblogapplication.services.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
